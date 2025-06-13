@@ -1,0 +1,130 @@
+/*
+Theme Name: Lucent News List Details
+Theme URI: https://lucentdiagnostics.com
+Author: Lucent Diagnostics
+Author URI: https://lucentdiagnostics.com
+Description: A custom theme for displaying news lists and details
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lucent-news-list-details
+*/
+
+/* Base styles */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --text-color: #333;
+  --light-bg: #f8f9fa;
+  --border-radius: 8px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* News List styles */
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.news-item {
+  background: #fff;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.news-item:hover {
+  transform: translateY(-5px);
+}
+
+.news-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-title {
+  font-size: 1.25rem;
+  margin: 0 0 10px;
+}
+
+.news-excerpt {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.news-meta {
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+}
+
+/* Single News styles */
+.single-news {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.single-news-header {
+  margin-bottom: 30px;
+}
+
+.single-news-title {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.single-news-meta {
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.single-news-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.single-news-image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  margin: 20px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .news-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .single-news-title {
+    font-size: 2rem;
+  }
+}
+
+.site-title {
+    display: none !important;
+}
+
+.site-description {
+    display: none !important;
+} 

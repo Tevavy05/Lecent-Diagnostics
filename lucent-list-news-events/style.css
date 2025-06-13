@@ -1,0 +1,51 @@
+/*
+Theme Name: Lucent List News & Events
+Theme URI: https://lucentdiagnostics.com
+Author: Your Name
+Author URI: https://yourwebsite.com
+Description: A custom theme for displaying news and events
+Version: 1.0.0
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lucent-list-news-events
+*/
+
+/* Base Styles */
+:root {
+    --primary-color: #1e73be;
+    --secondary-color: #f8f9fa;
+    --text-color: #333333;
+    --light-gray: #f4f4f4;
+    --border-radius: 8px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header Styles */
+.site-header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: var(--secondary-color);
+    padding: 2rem 0;
+    margin-top: 3rem;
+} 

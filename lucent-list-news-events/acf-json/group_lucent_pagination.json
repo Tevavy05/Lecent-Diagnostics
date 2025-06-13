@@ -1,0 +1,63 @@
+{
+    "key": "group_lucent_pagination",
+    "title": "Block: Lucent Pagination",
+    "fields": [
+        {
+            "key": "field_lucent_pagination_total",
+            "label": "Total Pages",
+            "name": "total_pages",
+            "type": "number",
+            "instructions": "Set the total number of pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 6,
+            "min": 1,
+            "max": "",
+            "placeholder": "",
+            "step": 1
+        },
+        {
+            "key": "field_lucent_pagination_current",
+            "label": "Current Page",
+            "name": "current_page",
+            "type": "number",
+            "instructions": "Set the current active page number",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "min": 1,
+            "max": "",
+            "placeholder": "",
+            "step": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/lucent-pagination"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1710910000
+} 

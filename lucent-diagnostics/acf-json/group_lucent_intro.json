@@ -1,0 +1,47 @@
+{
+    "key": "group_lucent_intro",
+    "title": "Lucent Intro Settings",
+    "fields": [
+        {
+            "key": "field_lucent_intro_text",
+            "label": "Intro Text",
+            "name": "intro_text",
+            "type": "textarea",
+            "instructions": "Enter the main text for the intro section",
+            "required": 1,
+            "default_value": "Using ultra-sensitive, multi-plex technology, Lucent Diagnostics delivers easily accessible, industry-leading products, like no other, giving clinicians non-invasive diagnostic tools that they can rely on.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": "br"
+        },
+        {
+            "key": "field_lucent_intro_background",
+            "label": "Background Color",
+            "name": "background_color",
+            "type": "color_picker",
+            "instructions": "Choose the background color for the intro section",
+            "required": 1,
+            "default_value": "#1e73be"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf/lucent-intro"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1710340000
+}

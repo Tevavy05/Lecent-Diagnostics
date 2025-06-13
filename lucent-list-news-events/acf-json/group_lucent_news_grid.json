@@ -1,0 +1,66 @@
+{
+    "key": "group_lucent_news_grid",
+    "title": "Block: Lucent News Grid",
+    "fields": [
+        {
+            "key": "field_lucent_news_grid_items",
+            "label": "News Items",
+            "name": "news_items",
+            "type": "repeater",
+            "instructions": "Add news items to display in the grid",
+            "required": 1,
+            "min": 1,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add News Item",
+            "sub_fields": [
+                {
+                    "key": "field_lucent_news_grid_title",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "Enter the news title",
+                    "required": 1,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "key": "field_lucent_news_grid_link",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "url",
+                    "instructions": "Enter the news link",
+                    "required": 1,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf/lucent-news-grid"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1710910000,
+    "local": "json"
+} 
