@@ -1,0 +1,1 @@
+đây là các theme mà e đã tạo trong domain mới của e, e tạo các trường ACF và để trong một folder riêng tên là acf-json, các block để sử dụng trong theme e để trong một folder riêng với tên template parts/blocks, sau khi e đã tạo xong các trường và các block thì e sẽ tiến hành đăng ký các block đó vào trong file function.php của theme đó để có thể sử dụng các block đó ạ.
